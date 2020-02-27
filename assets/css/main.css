@@ -98,7 +98,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #888;
+		color: black;
 		font-family: "Lato", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -117,7 +117,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #4acaa8 !important;
+			color: #94cea6 !important;
 		}
 
 	strong, b {
@@ -1785,7 +1785,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #4acaa8;
+		color: #94cea6;
 		font-size: 3.5em;
 	}
 
@@ -1848,7 +1848,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #4acaa8;
+			border-color: #94cea6;
 		}
 
 	select {
@@ -1953,7 +1953,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4acaa8;
+			border-color: #94cea6;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2011,6 +2011,16 @@ input, select, textarea {
 
 /* Icon */
 
+		img.listIcon {
+			line-height: 1;
+			height: 5em;
+		}
+
+		i {
+			font-size: 5em;
+			font-family: "Lato", sans-serif;
+		}
+
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -2044,6 +2054,13 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+		}
+
+		.listIcon {
+			display: inline-block;
+			font-family: "Lato", sans-serif;
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
 		}
 
 /* Image */
@@ -2402,7 +2419,7 @@ input, select, textarea {
 			}
 
 			ul.feature-icons li:before {
-				background: #4acaa8;
+				background: #94cea6;
 				border-radius: 100%;
 				color: #ffffff;
 				display: block;
@@ -2421,6 +2438,7 @@ input, select, textarea {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
+		font-size: 1.5em;
 	}
 
 		ul.icons li {
@@ -2618,7 +2636,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #4acaa8;
+			background-color: #94cea6;
 			color: #ffffff !important;
 		}
 
@@ -2700,7 +2718,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #4acaa8;
+		background: #94cea6;
 		color: #d2f2e9;
 		height: 100%;
 		overflow-y: auto;
@@ -2808,7 +2826,7 @@ input, select, textarea {
 
 						#header > nav ul li a.active {
 							background: #fff;
-							color: #4acaa8 !important;
+							color: #94cea6 !important;
 						}
 
 					#header > nav ul li:first-child {
@@ -3076,7 +3094,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #4acaa8;
+						background: #94cea6
 						color: #ffffff;
 						content: '\f0c9';
 						display: block;
